@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	/*padding-top: 50px;
+	overflow-y: scroll; */
+}
+
+#sat-controls-container {
+	position: relative;
+	top: 120px;
+}
+
+#comms-container {
+	overflow-y: scroll;
+	height: 300px;
+}

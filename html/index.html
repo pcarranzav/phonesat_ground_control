@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Phonesat Ground Control</title>
+		<link href="../css/main.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/jquery.knob.js"></script>
+		<script src='../js/bootstrap.min.js'></script>
+		<script src="../js/main.js"></script>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='row'>
+				<div class='col-xs-6 col-xs-offset-3'>
+					<div class='row'>
+						<h1>Phonesat Ground Control</h1>
+					</div>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-xs-12'>
+					<div class='row'>
+						<div class='col-xs-6' id='image-feed-container'>
+							<div class='row'>
+								<h4>Live feed</h4>
+							</div>
+							<div class='row'>
+								<img id='image-feed' src='../img/feed/frame-0.jpg' class='col-xs-12'/>
+							</div>
+						</div> 
+						<div class="col-xs-4 col-xs-offset-1">
+							<div class='row' id='sat-controls-container'>
+								<div style="width:100%; text-align:center;">
+									<input class="cs_knob" value="25"> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='row' id='comms-container'>
+				<span id='comms-log'></span>
+			</div>
+		</div>
+	</body>
+
+</html>
